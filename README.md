@@ -148,3 +148,29 @@ The deep learning model performed exceptionally well, with a slightly better rec
 
 By considering our example the company will able to save Rs 41,686,140 by reducing fraud losses.
 
+# **Future Enhancements**  
+
+While the model is already performing well, there are additional steps that can be explored to further enhance the project and derive deeper insights:  
+
+1. **Feature Selection and Modeling on Top Features**  
+   - Identify the top features contributing to fraud using feature importance techniques like SHAP, LIME, or permutation importance.  
+   - Train and evaluate the model on these top features to test if a reduced feature set can improve interpretability and maintain accuracy.  
+
+2. **Feature Engineering: Interaction Terms**  
+   - Create interaction terms based on the top features selected.  
+   - For instance, combining features that strongly influence fraud behavior could reveal hidden patterns.  
+   - Evaluate the model's performance using these engineered features.  
+
+3. **Explainable AI with SHAP or LIME**  
+   - Use SHAP (SHapley Additive exPlanations) or LIME (Local Interpretable Model-agnostic Explanations) to understand individual feature contributions to predictions.  
+   - This will help identify both global feature importance and specific feature impacts on individual fraud predictions, enhancing model transparency.  
+
+4. **Model Deployment**  
+   - Deploy the trained model using platforms like **Streamlit**, **Flask**, or **FastAPI**.  
+   - Create an interactive interface where users can input transaction details and get real-time predictions on fraud likelihood.  
+   - Showcase the deployment to highlight the practical usability of the model in a real-world scenario.  
+
+---
+
+
+
